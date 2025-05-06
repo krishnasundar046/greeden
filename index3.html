@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+
+    <!-- link wiht tailwind cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+ 
+    <nav class="flex p-3 justify-between bg-green-100 shadow-xl sticky top-0 z-10">
+        <h1 class=" text-2xl">Greenden</h1>
+
+        <svg class="w-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-10 hidden md:flex">
+            <li><a class="text-gray-700 hover:text-black" href="file:///C:/Users/Student/Desktop/FSWD/tailwind%20css/greenden/index2.html">Home</a></li>
+            <li><a class="text-gray-700 hover:text-black" href="file:///C:/Users/Student/Desktop/FSWD/tailwind%20css/greenden/index.html">Product</a></li>
+            <li><a class="text-gray-700 hover:text-black" href="file:///C:/Users/Student/Desktop/FSWD/tailwind%20css/greenden/index3.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- content page -->
+
+<section  class="md:m-20 ">
+    <h1 class="text-center font-extrabold tracking-tight text-4xl mt-10">Contact us</h1>
+    <p class="text-center text-gray-400 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat
+        natus nihil, ratione laborum
+        accusantium vero excepturi adipisci officiis dignissimos?</p>
+
+    <form>
+        <div class="m-5">
+            <label class="block mb-2 mt-10" for="email">Your email</label>
+            <input type="email" id="email" placeholder="name@flowbite.com" class="border rounded-xl border-gray-300 w-full p-2">
+        </div>
+
+        <div class="m-5">
+            <label for="subject" class="block mb-2">Subject</label>
+            <input type="text" placeholder="Let us know how can we help" class="border border-gray-300 rounded-xl w-full p-2">      
+        </div>
+
+        <div class="m-5">
+            <label for="message" class="block mb-2">Your message</label>
+            <textarea id="message" placeholder="Leave a comment..." rows="5" class="border border-gray-300 rounded-xl w-full p-2"></textarea>
+        </div>
+
+        <div class="m-5">
+            <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+        </div>
+    </form>
+</section>
+
+<!-- FOOTER -->
+ <div class="bg-green-100 p-5">
+    <h1 class="m-5 font-bold text-4xl">Greenden</h1>
+    <p class="m-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium saepe ipsum laboriosam quasi. Odit, similique.</p>
+    <p class="m-5">&copy; 2021 Greenday.com</p>
+
+
+ </div>
+
+</body>
+
+</html>
